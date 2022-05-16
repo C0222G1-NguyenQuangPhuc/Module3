@@ -53,23 +53,9 @@ select * from `student` where `status` = true;
 select * from `subject` where `credit` < 10;
 
 select s.student_id, s.student_name, c.class_name 
-from student as s join class as c on s.class_id = c.class_id
+from student s join class c on s.class_id = c.class_id
 where c.class_name = 'A1'; 
 
 SELECT s.student_id, s.student_name, sub.sub_name, m.mark
-FROM student s join mark as m on s.student_id = m.student_id join subject sub on m.sub_id = sub.sub_id
+FROM student s join mark m on s.student_id = m.student_id join subject sub on s.sub_id = sub.sub_id
 WHERE sub.sub_name = 'CF';
-
-select * from student where student_name like 'H%';
-
-select * from class where startdate like '%12%';
-
-select * from `subject` where `credit` between 3 and 5;
-
-update student set class_id = 2 where student_name = 'Hung';
-
-select st.student_name, sb.sub_name, m.mark
-from mark m
-join `subject` sb on sb.sub_id = m.sub_id
-join `student` st on st.student_id = m.student_id
-order by m.mark desc, st.student_name;
