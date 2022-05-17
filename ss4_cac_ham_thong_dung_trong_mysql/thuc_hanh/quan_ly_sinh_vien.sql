@@ -94,22 +94,8 @@ join mark m on s.student_id = m.student_id
 group by s.student_id, s.student_name
 having dtb > 15;
 
--- Hiện thị thông tin học viên có điểm trung lớn nhất
+-- Hiện thị thông tin học viện có điểm trung lớn nhất
 select s.student_id, s.student_name, avg(m.mark) dtb from student s
 join mark m on s.student_id = m.student_id
 group by s.student_id, s.student_name
 having avg(m.mark) >= all (select avg(m.mark) from mark m group by m.student_id);
-
--- Hiện thị tất cả thông tin môn học có credit lớn nhất
-select * from `subject` where credit in (select max(credit) from `subject`);
-
--- Hiện thị các thông tin môn học có điểm thi lớn nhất
-select * from `subject` sb
-join mark m on m.sub_id = sb.sub_id
-where m.mark in (select max(mark) from mark);
-
--- Hiện thị các thông tin sinh viên và điểm trung bình của mỗi sinh viên, sắp xếp theo thứ tự điểm giảm dần
-select *, avg(m.mark) dtb from student st
-join mark m on m.student_id = st.student_id
-group by st.student_id
-order by dtb desc;
