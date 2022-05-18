@@ -23,9 +23,13 @@ explain select * from products where product_code = 'ip11';
 create index i_product_code on products (product_code);
 
 -- Tạo View để lấy các thông tin : product_code, product_name, product_price, product_status
-create view w_product as select product_code, product_name, product_price, product_status from products;
+create view w_product as select product_code, product_name, product_price, product_amount, product_status from products;
 
 select * from w_product;
+
+create or replace view w_product as select product_code, product_name, product_price, product_status from products;
+
+drop view w_product;
 
 -- Tạo Store Procedure lấy tất cả thông tin của các sản phẩm trong bảng products
 delimiter $$
