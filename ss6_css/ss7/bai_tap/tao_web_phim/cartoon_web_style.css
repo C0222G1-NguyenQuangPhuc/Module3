@@ -1,0 +1,56 @@
+* {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    line-height: 50px;
+}
+.head-link {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head-link .item {
+    border-right: 1px solid #333;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.content {
+    width: 100%;
+    height: 525px;
+    flex-direction: column;
+}
+.content .left-content {
+    width: 30%;
+    height: 100%;
+}
+.content .left-content .image {
+    display: block;
+    width: 70%;
+    height: 30%;
+}
+.content .right-content {
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+.content .right-content .watch-anime {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    right: 0;
+}
+.footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
