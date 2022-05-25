@@ -50,21 +50,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss7/bai_tap/tao_web_phim" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../f8_shop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\ss8\thuc_hanh" />
+      <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\ss7\bai_tap\tao_web_phim" />
+      <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\bai_tap\tao_trang_truyen\comic_image" />
+      <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\bai_tap\tao_trang_truyen" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\ss7\bai_tap\tao_web_phim" />
       <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\ss6" />
       <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\ss7" />
       <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\bai_tap\tao_trang_truyen" />
       <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\bai_tap" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\ss7\bai_tap\tao_web_phim" />
-      <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\bai_tap\tao_trang_truyen\comic_image" />
-      <recent name="E:\C0222G1_NguyenQuangPhuc_Module3\ss6_css\bai_tap\tao_trang_truyen" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -82,6 +83,8 @@
       <workItem from="1653308096111" duration="1460000" />
       <workItem from="1653374119771" duration="10535000" />
       <workItem from="1653394968940" duration="6736000" />
+      <workItem from="1653408108886" duration="45000" />
+      <workItem from="1653449149939" duration="1531000" />
     </task>
     <servers />
   </component>
@@ -101,10 +104,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1653401290195">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1653450748472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1653401290195" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1653450748472" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653300378111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
