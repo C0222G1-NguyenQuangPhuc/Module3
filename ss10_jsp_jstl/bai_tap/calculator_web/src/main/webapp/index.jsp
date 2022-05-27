@@ -9,16 +9,25 @@
         <h3>Calculator</h3>
         <div class="first">
             <span>First Operand: </span>
-            <label name="first-operand" type="number" placeholder="Input First Operand" ></label>
+            <input name="first-operand" type="number" placeholder="Input First Operand" ></input>
         </div>
         <div class="operator">
             <span>Operator: </span>
             <label for="">
                 <select name="operator" id="">
-
+                    <option value="+">Addition</option>
+                    <option value="-">Subtraction</option>
+                    <option value="*">Multiple</option>
+                    <option value="/">Division</option>
                 </select>
             </label>
         </div>
+        <div class="second">
+            <span>Second Operand: </span>
+            <input name="second-operand" type="number" placeholder="Input Second Operand" ></input>
+        </div>
+        <input type="submit" value="Submit">
+        <p>Result : ${result}</p>
     </div>
 </form>
 </body>

@@ -13,22 +13,20 @@ public class CalculatorServlet extends HttpServlet {
         String operator = request.getParameter("operator");
         double result = 0;
         switch (operator){
-            case "Addition":
+            case "+":
                 result = firstOperand + secondOperand;
                 break;
-            case "Subtraction":
+            case "-":
                 result = firstOperand - secondOperand;
                 break;
-            case "Multiple":
+            case "*":
                 result = firstOperand * secondOperand;
                 break;
-            case "Division":
+            case "/":
                 result = firstOperand / secondOperand;
         }
-        request.setAttribute("firstElement",firstOperand);
-        request.setAttribute("secondElement",secondOperand);
-        request.setAttribute("operator",operator);
-        request.setAttribute("result",result);
+
+        request.setAttribute("result",firstOperand + " "+ operator + " " + secondOperand + " = " + result );
         request.getRequestDispatcher("index.jsp").forward(request,response);
     }
 
