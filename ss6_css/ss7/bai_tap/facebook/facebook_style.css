@@ -1,0 +1,101 @@
+* {
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.col-md-1 {
+    width: 8.33333%;
+}
+
+.col-md-2 {
+    width: 16.66667%;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.col-md-4 {
+    width: 33.33333%;
+}
+
+.col-md-5 {
+    width: 41.66667%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-7 {
+    width: 58.33333%;
+}
+
+.col-md-8 {
+    width: 66.66667%;
+}
+
+.col-md-9 {
+    width: 75%;
+}
+
+.col-md-10 {
+    width: 83.33333%;
+}
+
+.col-md-11 {
+    width: 91.66667%;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header, .left-head, .middle-head, .right-head {
+    background-color: #202025;
+}
+.search-bar {
+    width: 100%;
+    height: 50px;
+    border-radius: 25%;
+    border: 0;
+}
+.icon-head-1,.icon-head-2,.icon-head-3,.icon-head-4{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+.icon-right-1,.icon-right-2,.icon-right-3{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+.container {
+    margin-top: 30px;
+}
+.describe-content {
+    color: white;
+    line-height: 30px;
+}
+.icon-content-left {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+.left-first-main, .right-first-main {
+    color: dodgerblue;
+    display: block;
+    padding-left: 100px ;
+    height: 20px;
+}
+.second-row-main img {
+    width: 100%;
+    height: 230px;
+}
