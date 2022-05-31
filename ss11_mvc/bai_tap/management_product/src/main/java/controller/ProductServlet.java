@@ -150,7 +150,7 @@ public class ProductServlet extends HttpServlet {
 
     private void showEditForm(HttpServletRequest request, HttpServletResponse response){
         int id = Integer.parseInt(request.getParameter("id"));
-        Product product = this.productService.findById(id);
+        Product product = productService.findById(id);
         RequestDispatcher dispatcher;
         if (product == null){
             dispatcher = request.getRequestDispatcher("view/error-404.jsp");
